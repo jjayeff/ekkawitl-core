@@ -521,14 +521,16 @@ function (_Component) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_materialize__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-materialize */ "react-materialize");
-/* harmony import */ var react_materialize__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_materialize__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _img_logo5_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../img/logo5.png */ "./img/logo5.png");
-/* harmony import */ var _img_logo5_png__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_img_logo5_png__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _img_english_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../img/english.png */ "./img/english.png");
-/* harmony import */ var _img_english_png__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_img_english_png__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _img_thailand_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../img/thailand.jpg */ "./img/thailand.jpg");
-/* harmony import */ var _img_thailand_jpg__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_img_thailand_jpg__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "next/link");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_materialize__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-materialize */ "react-materialize");
+/* harmony import */ var react_materialize__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_materialize__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _img_logo5_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../img/logo5.png */ "./img/logo5.png");
+/* harmony import */ var _img_logo5_png__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_img_logo5_png__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _img_english_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../img/english.png */ "./img/english.png");
+/* harmony import */ var _img_english_png__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_img_english_png__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _img_thailand_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../img/thailand.jpg */ "./img/thailand.jpg");
+/* harmony import */ var _img_thailand_jpg__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_img_thailand_jpg__WEBPACK_IMPORTED_MODULE_5__);
 var _jsxFileName = "C:\\Users\\ekkaw\\Desktop\\Project\\mini-project\\ekkawitl-core\\components\\Navbar.js";
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
@@ -554,12 +556,13 @@ function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || func
 
 
 
+
 var logo = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-  src: _img_logo5_png__WEBPACK_IMPORTED_MODULE_2___default.a,
+  src: _img_logo5_png__WEBPACK_IMPORTED_MODULE_3___default.a,
   className: "brand-logo logo-img",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 7
+    lineNumber: 8
   },
   __self: undefined
 });
@@ -582,28 +585,19 @@ function (_React$Component) {
         className: "nav-wrapper container",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 12
+          lineNumber: 13
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_materialize__WEBPACK_IMPORTED_MODULE_1__["Navbar"], {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_materialize__WEBPACK_IMPORTED_MODULE_2__["Navbar"], {
         brand: logo,
         right: true,
         className: "transparent",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 13
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_materialize__WEBPACK_IMPORTED_MODULE_1__["NavItem"], {
-        onClick: function onClick() {
-          return console.log('test click');
-        },
-        __source: {
-          fileName: _jsxFileName,
           lineNumber: 14
         },
         __self: this
-      }, "HOME"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_materialize__WEBPACK_IMPORTED_MODULE_1__["NavItem"], {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_materialize__WEBPACK_IMPORTED_MODULE_2__["NavItem"], {
         onClick: function onClick() {
           return console.log('test click');
         },
@@ -612,67 +606,65 @@ function (_React$Component) {
           lineNumber: 15
         },
         __self: this
-      }, "PORTFOLIO"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_materialize__WEBPACK_IMPORTED_MODULE_1__["NavItem"], {
-        onClick: function onClick() {
-          return console.log('test click');
-        },
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+        prefetch: true,
+        href: "/",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 16
         },
         __self: this
-      }, "ABOUT"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_materialize__WEBPACK_IMPORTED_MODULE_1__["NavItem"], {
+      }, "HOME")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_materialize__WEBPACK_IMPORTED_MODULE_2__["NavItem"], {
         onClick: function onClick() {
           return console.log('test click');
         },
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 17
-        },
-        __self: this
-      }, "RESUME"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_materialize__WEBPACK_IMPORTED_MODULE_1__["NavItem"], {
-        onClick: function onClick() {
-          return console.log('test click');
-        },
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 18
-        },
-        __self: this
-      }, "CONTACT"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_materialize__WEBPACK_IMPORTED_MODULE_1__["NavItem"], {
-        onClick: function onClick() {
-          return console.log('test click');
-        },
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 19
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        className: "flag-language",
-        href: "#",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 20
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: _img_english_png__WEBPACK_IMPORTED_MODULE_3___default.a,
-        className: "circle",
-        height: "25px",
-        width: "25px",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 21
-        },
-        __self: this
-      }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_materialize__WEBPACK_IMPORTED_MODULE_1__["NavItem"], {
+      }, "PORTFOLIO"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_materialize__WEBPACK_IMPORTED_MODULE_2__["NavItem"], {
         onClick: function onClick() {
           return console.log('test click');
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 24
+          lineNumber: 21
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+        prefetch: true,
+        href: "/about",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 22
+        },
+        __self: this
+      }, "ABOUT")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_materialize__WEBPACK_IMPORTED_MODULE_2__["NavItem"], {
+        onClick: function onClick() {
+          return console.log('test click');
+        },
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 26
+        },
+        __self: this
+      }, "RESUME"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_materialize__WEBPACK_IMPORTED_MODULE_2__["NavItem"], {
+        onClick: function onClick() {
+          return console.log('test click');
+        },
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 27
+        },
+        __self: this
+      }, "CONTACT"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_materialize__WEBPACK_IMPORTED_MODULE_2__["NavItem"], {
+        onClick: function onClick() {
+          return console.log('test click');
+        },
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 28
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -680,17 +672,44 @@ function (_React$Component) {
         href: "#",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 25
+          lineNumber: 29
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: _img_thailand_jpg__WEBPACK_IMPORTED_MODULE_4___default.a,
+        src: _img_english_png__WEBPACK_IMPORTED_MODULE_4___default.a,
+        className: "circle",
+        height: "25px",
+        width: "25px",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 30
+        },
+        __self: this
+      }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_materialize__WEBPACK_IMPORTED_MODULE_2__["NavItem"], {
+        onClick: function onClick() {
+          return console.log('test click');
+        },
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 33
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "flag-language",
+        href: "#",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 34
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: _img_thailand_jpg__WEBPACK_IMPORTED_MODULE_5___default.a,
         className: "circle ",
         height: "25px",
         width: "25px",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 26
+          lineNumber: 35
         },
         __self: this
       })))));
@@ -766,7 +785,6 @@ function (_React$Component) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_materialize__WEBPACK_IMPORTED_MODULE_1__["Slide"], {
         src: _img_code5_jpg__WEBPACK_IMPORTED_MODULE_2___default.a,
         title: "This is our big Tagline!",
-        className: "xx",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 9
@@ -1064,6 +1082,17 @@ module.exports = __webpack_require__(/*! ./pages/about.js */"./pages/about.js");
 /***/ (function(module, exports) {
 
 module.exports = require("next/head");
+
+/***/ }),
+
+/***/ "next/link":
+/*!****************************!*\
+  !*** external "next/link" ***!
+  \****************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("next/link");
 
 /***/ }),
 
