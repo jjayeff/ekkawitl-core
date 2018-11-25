@@ -1,0 +1,139 @@
+.primary-overlay {
+  background: rgba(116, 116, 116, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.transparent {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.main-header {
+  background: url(/_next/static/images/code4-14bb7032a76efba75753e6ae26d2f08c.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 700px;
+  color: #fff;
+}
+
+.main-header .showcase {
+  padding-top: 100px;
+}
+
+.main-header-inner {
+  background: url(/_next/static/images/background-61db4524a0ebd6de3f042ee3a50a660f.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 350px;
+  color: #fff;
+}
+
+.main-header-inner .showcase {
+  padding-top: 50px;
+}
+
+.resume-header {
+  background: url(/_next/static/images/code0-ac79ca0f8262f1b6ed513510f73d3eb2.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 700px;
+  color: #fff;
+}
+
+.resume-header .showcase {
+  padding-top: 100px;
+}
+
+.resume-header-inner {
+  background: url(/_next/static/images/background-61db4524a0ebd6de3f042ee3a50a660f.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 350px;
+  color: #fff;
+}
+
+.resume-header-inner .showcase {
+  padding-top: 50px;
+}
+
+.active-link {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.section-developers {
+  position: relative;
+  background: url(/_next/static/images/code-d0fcf821895a8629007eb75bf0c6676d.jpg);
+  background-size: cover;
+  background-position: center;
+  border-top: #333 solid 5px;
+  border-bottom: #333 solid 5px;
+  min-height: 160px;
+}
+
+.section-podcast {
+  position: relative;
+  background: url(/_next/static/images/circuit-0c63cfacaadc1532856503fed8adbf99.jpg);
+  background-size: cover;
+  background-position: center;
+  border-top: #333 solid 5px;
+  border-bottom: #333 solid 5px;
+  min-height: 160px;
+}
+
+.section-podcast a {
+  margin-top: 30px;
+}
+
+.section-podcast .primary-overlay {
+  background: rgba(112, 81, 176, 0.9);
+}
+
+.carousel-item p {
+  font-size: 20px !important;
+}
+
+.tabs .indicator {
+  background-color: #6a1b9a !important;
+}
+
+.btn-extend {
+  display: block;
+  width: 100%;
+}
+
+@media (max-width: 500px) {
+  .section-developers,
+  .section-podcast {
+    min-height: 240px;
+  }
+}
+
+.logo-img {
+  width: auto;
+  height: 55px;
+}
+
+.flag-language {
+  padding-top: 5px;
+}
+
+.text-underline {
+  text-decoration: underline;
+}
+
+.test {
+  position: absolute;
+  bottom: 0;
+}
+
+body {
+  background: #212121;
+}
+
+
+/*# sourceMappingURL=styles.chunk.css.map*/
