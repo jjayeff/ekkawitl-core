@@ -24,20 +24,20 @@ class ModalContract extends React.Component {
                 </span>
                 <hr />
                 <div className="chip">
-                  <img src={fb} alt="" /> <a href="#">@ekkawit.l</a>
+                  <img src={fb} alt="" /> <a href="">@ekkawit.l</a>
                 </div>
                 <div className="chip">
-                  <img src={ig} alt="" /> <a href="#">@jayjeffy</a>
+                  <img src={ig} alt="" /> <a href="">@jayjeffy</a>
                 </div>
                 <div className="chip">
-                  <img src={ln} alt="" /> <a href="#">ekkawit-lertkrai</a>
+                  <img src={ln} alt="" /> <a href="">ekkawit-lertkrai</a>
                 </div>
                 <div className="chip">
-                  <img src={line} alt="" /> <a href="#">jjayeff</a>
+                  <img src={line} alt="" /> <a href="">jjayeff</a>
                 </div>
                 <div className="chip">
                   <img src={mail} alt="" />
-                  <a href="#">ekkawit.lertkrai@gmail.com</a>
+                  <a href="">ekkawit.lertkrai@gmail.com</a>
                 </div>
               </div>
             </div>

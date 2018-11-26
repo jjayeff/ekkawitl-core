@@ -32,7 +32,7 @@ class SliderComponent extends React.Component {
                 non illo earum cumque id est!
               </h5>
               <a
-                href="#"
+                href=""
                 className="btn-large waves-effect waves-light  white black-text"
               >
                 Download Resume
@@ -48,7 +48,7 @@ class SliderComponent extends React.Component {
                 non illo earum cumque id est!
               </h5>
               <a
-                href="#"
+                href=""
                 className="btn-large waves-effect waves-light  white black-text"
               >
                 Download Resume
@@ -64,7 +64,7 @@ class SliderComponent extends React.Component {
                 non illo earum cumque id est!
               </h5>
               <a
-                href="#"
+                href=""
                 className="btn-large waves-effect waves-light  white black-text"
               >
                 Download Resume

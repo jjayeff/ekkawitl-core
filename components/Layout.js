@@ -5,6 +5,7 @@ import ModalContract from './index/ModalContract';
 import Navbar from './Navbar';
 import Footer from './Footer';
 import Showcase from './index/Showcase';
+import ShowcaseResume from './resume/Showcase';
 import Slider from './about/Slider';
 import icon from '../img/logo7.png';
 
@@ -22,7 +23,7 @@ export default class Layout extends Component {
   renderComponent() {
     if (this.props.page == 'index') return <Showcase />;
     else if (this.props.page == 'about') return <Slider />;
-    else return <Showcase />;
+    else return <ShowcaseResume />;
   }
   render() {
     return (
@@ -42,7 +43,15 @@ export default class Layout extends Component {
           <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js" />
           <script src="path/to/your/bundle.js" />
         </Head>
-        <header className={this.props.page == 'index' ? 'main-header' : ''}>
+        <header
+          className={
+            this.props.page == 'index'
+              ? 'main-header'
+              : this.props.page == 'resume'
+              ? 'resume-header'
+              : ''
+          }
+        >
           <Navbar page={this.props.page} />
           {this.renderComponent()}
         </header>

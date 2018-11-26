@@ -1,4 +1,5 @@
 import React from 'react';
+import { About, Home, Resume } from './Router';
 
 class Footer extends React.Component {
   render() {
@@ -11,23 +12,29 @@ class Footer extends React.Component {
           <br />
           <br />
           <div className="row">
-            <a href="#" className="col m2 s4 white-text text-lighten-4">
+            <a
+              href=""
+              onClick={Home}
+              className="col m2 s4 white-text text-lighten-4"
+            >
               HOME
             </a>
-            <a href="#" className="col m2 s4 white-text text-lighten-4">
+            <a href="" className="col m2 s4 white-text text-lighten-4">
               PORTFOLIO
             </a>
             <a
-              href="about.html"
+              href=""
+              onClick={About}
               className="col m2 s4 white-text text-lighten-4"
             >
               ABOUT
             </a>
-            <a href="#" className="col m2 s4 white-text text-lighten-4">
+            <a href="" className="col m2 s4 white-text text-lighten-4">
               BLOG
             </a>
             <a
-              href="resume.html"
+              href=""
+              onClick={Resume}
               className="col m2 s4 white-text text-lighten-4"
             >
               RESUME
@@ -47,19 +54,16 @@ class Footer extends React.Component {
               Developer
             </p>
             <div className="row">
-              <a
-                href="#"
-                className="col s1 offset-s4 white-text text-lighten-4"
-              >
+              <a href="" className="col s1 offset-s4 white-text text-lighten-4">
                 <i className="fab fa-facebook" />
               </a>
-              <a href="#" className="col s1 white-text text-lighten-4">
+              <a href="" className="col s1 white-text text-lighten-4">
                 <i className="fab fa-twitter" />
               </a>
-              <a href="#" className="col s1 white-text text-lighten-4">
+              <a href="" className="col s1 white-text text-lighten-4">
                 <i className="fab fa-instagram" />
               </a>
-              <a href="#" className="col s1 white-text text-lighten-4">
+              <a href="" className="col s1 white-text text-lighten-4">
                 <i className="fab fa-linkedin-in" />
               </a>
             </div>

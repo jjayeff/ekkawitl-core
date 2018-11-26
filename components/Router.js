@@ -11,3 +11,9 @@ export function About() {
     pathname: '/about'
   });
 }
+
+export function Resume() {
+  Router.push({
+    pathname: '/resume'
+  });
+}
