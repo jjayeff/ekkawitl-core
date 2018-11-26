@@ -7,11 +7,12 @@
     "@zeit/next-css": "^1.0.1",
     "ember": "^1.0.3",
     "jquery": "^3.3.1",
+    "material-ui": "^0.20.2",
+    "materialize-css": "^1.0.0-rc.2",
     "next": "^7.0.2",
     "next-images": "^1.0.1",
     "react": "^16.6.0",
-    "react-dom": "^16.6.0",
-    "react-materialize": "^2.5.0"
+    "react-dom": "^16.6.0"
   },
   "scripts": {
     "dev": "node server.js",

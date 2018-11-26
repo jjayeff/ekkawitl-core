@@ -12,6 +12,13 @@
   background-color: rgba(0, 0, 0, 0);
 }
 
+.sliders {
+  height: 640px;
+  touch-action: pan-y;
+  -webkit-user-drag: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
 .main-header {
   background: url(/_next/static/images/code4-14bb7032a76efba75753e6ae26d2f08c.jpg);
   background-size: cover;

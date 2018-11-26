@@ -1,48 +1,50 @@
 import React from 'react';
+import img1 from '../../img/people.jpg';
+import fb from '../../img/fb.png';
+import ig from '../../img/ig.png';
+import twitter from '../../img/twitter.png';
+import ln from '../../img/in.jpg';
+import line from '../../img/line.png';
+import phone from '../../img/phone.jpg';
+import mail from '../../img/mail.png';
 
 class ModalContract extends React.Component {
   render() {
     return (
-      <div id="contact-modal" class="modal">
-        <div class="modal-content">
-          <div class="card horizontal">
-            <div class="card-image">
-              <img src="img/people.jpg" />
+      <div id="contact-modal" className="modal">
+        <div className="modal-content">
+          <div className="card horizontal">
+            <div className="card-image">
+              <img src={img1} />
             </div>
-            <div class="card-stacked">
-              <div class="card-content">
-                <span class="card-title">Ekkawit Lertkrai (JayJeff)</span>
+            <div className="card-stacked">
+              <div className="card-content">
+                <span className="card-title black-text">
+                  Ekkawit Lertkrai (JayJeff)
+                </span>
                 <hr />
-                <div class="chip">
-                  <img src="img/fb.png" alt="" /> <a href="#">@ekkawit.l</a>
+                <div className="chip">
+                  <img src={fb} alt="" /> <a href="#">@ekkawit.l</a>
                 </div>
-                <div class="chip">
-                  <img src="img/ig.png" alt="" /> <a href="#">@jayjeffy</a>
+                <div className="chip">
+                  <img src={ig} alt="" /> <a href="#">@jayjeffy</a>
                 </div>
-                <div class="chip">
-                  <img src="img/twitter.png" alt="" /> <a href="#">@jjayeff</a>
+                <div className="chip">
+                  <img src={ln} alt="" /> <a href="#">ekkawit-lertkrai</a>
                 </div>
-                <div class="chip">
-                  <img src="img/in.jpg" alt="" />{' '}
-                  <a href="#">ekkawit-lertkrai</a>
+                <div className="chip">
+                  <img src={line} alt="" /> <a href="#">jjayeff</a>
                 </div>
-                <div class="chip">
-                  <img src="img/line.png" alt="" /> <a href="#">jjayeff</a>
-                </div>
-                <div class="chip">
-                  <img src="img/phone.jpg" alt="" />{' '}
-                  <a href="#">+66 899849157</a>
-                </div>
-                <div class="chip">
-                  <img src="img/mail.png" alt="" />
+                <div className="chip">
+                  <img src={mail} alt="" />
                   <a href="#">ekkawit.lertkrai@gmail.com</a>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="modal-footer">
-          <a class="modal-action modal-close waves-effect waves-green btn-flat">
+        <div className="modal-footer">
+          <a className="modal-action modal-close waves-effect waves-green btn-flat">
             Ok
           </a>
         </div>

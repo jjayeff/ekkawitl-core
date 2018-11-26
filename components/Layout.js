@@ -1,15 +1,25 @@
 import React, { Component } from 'react';
 import Head from 'next/head';
 import '../css/main.css';
+import ModalContract from './index/ModalContract';
+import Navbar from './Navbar';
+import Footer from './Footer';
+import Showcase from './index/Showcase';
+import Slider from './about/Slider';
 import icon from '../img/logo7.png';
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
-import Showcase from '../components/index/Showcase';
-import Slider from '../components/about/Slider';
+
+if (typeof window !== 'undefined') {
+  window.$ = $;
+  window.jQuery = $;
+  require('materialize-css');
+}
 
 export default class Layout extends Component {
+  componentDidMount() {
+    $('.modal').modal();
+  }
+
   renderComponent() {
-    console.log(this.props.page);
     if (this.props.page == 'index') return <Showcase />;
     else if (this.props.page == 'about') return <Slider />;
     else return <Showcase />;
@@ -28,16 +38,18 @@ export default class Layout extends Component {
             href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css"
             rel="stylesheet"
           />
+          <script src="https://code.jquery.com/jquery-2.1.1.min.js" />
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js" />
+          <script src="path/to/your/bundle.js" />
         </Head>
-        <header className="main-header">
-          <Navbar />
+        <header className={this.props.page == 'index' ? 'main-header' : ''}>
+          <Navbar page={this.props.page} />
           {this.renderComponent()}
         </header>
         {this.props.children}
         <Footer />
-        <script src="https://code.jquery.com/jquery-2.1.1.min.js" />
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js" />
-        <script src="path/to/your/bundle.js" />
+        {/* All Modal */}
+        <ModalContract />
       </div>
     );
   }
